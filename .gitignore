@@ -57,3 +57,15 @@ Thumbs.db
 
 # Notebook checkpoints
 .ipynb_checkpoints/
+
+# Local SQLite database & artifacts
+inspections.db
+*.db
+static/
+
+# Large model memory banks
+results/memory_banks/
+
+# Local markdown report & temporary files
+IMPLEMENTATION_WORKFLOW.md
+databse.py
